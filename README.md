@@ -41,13 +41,23 @@ Designing a social media website requires following some rules and taking into c
 * [ ] **Template strings** are literals delimited with backtick (`) characters, allowing for **multi-line strings**, **string interpolation** with embedded expressions, and special constructs called **tagged templates**.
 	> ℹ️ [JS] GET to know more about "Template literals". → [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
-```html
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
+```JS
+const mainEl=document.getElementById("main")
+let html=""
+
+for (let i=0; i<posts.length; i++){
+    html+=`
+    <div id="post_author">
+            <img src=${posts[i].avatar} alt=${posts[i].avatar} class="avatar">  //利用中括號和$來驅動變數
+            <div>
+                <div class="name font_size"><span>${posts[i].name}</span></div>
+                <span class="location font_size">${posts[i].location}</span>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
+    `
+}
+mainEl.innerHTML=html
 ```
 
 ⚠️ *Use the "container" to define which tags should be contained inside, they perform "active" when using the **flex-box**, it is a crucial method to foster the web structure building.* 
