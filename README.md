@@ -20,9 +20,9 @@
 
 > The **Oldagram** is my sixth static website, I tried to duplicate the website layout from Instagram and learned to write reusable code in new techniques.
 
-I start the Scrimba Module 2 course- Web dev basics and learn how to use basic HTML & CSS knowledge. At the end of the course, I follow the Figma template to finish my hometown page where you can know more about me, take a look at the → [Oldagram](https://shiuandai.github.io/Oldagram/).
+I start the Scrimba Module 4 course- Web dev basics and learn how to use HTML, CSS, and JavaScript knowledge. At the end of the course, I follow the Figma template to finish the social media website layout and take a look at the → [Oldagram](https://shiuandai.github.io/Oldagram/).
 
-## How I start the project?
+## How did I start the project?
 
 * Ensure all points are taken into consideration from Figma Template. → [Figma Template from Scrimba](https://www.figma.com/file/h0MKma9TTWzGOMQ9Ia6ROW/Oldagram?type=design&node-id=0-1&mode=design&t=bLeKAiMCwMVBGG4B-0)
 * Use JavaScript to render out all three posts.
@@ -32,7 +32,7 @@ I start the Scrimba Module 2 course- Web dev basics and learn how to use basic H
 
 ---
 
-## 1. - Design requirements
+## 1. - What I learned?
 
 Designing a hometown homepage website requires following some rules and taking into consideration that the project is not only a graphic project but a web project too. The next sections are crucial for any web project.
 
