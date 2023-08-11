@@ -43,7 +43,7 @@ let html=""
 for (let i=0; i<posts.length; i++){
     html+=`
     <div id="post_author">
-            <img src=${posts[i].avatar} alt=${posts[i].avatar} class="avatar">  //利用中括號和$來驅動變數
+            <img src=${posts[i].avatar} alt=${posts[i].avatar} class="avatar">  //利用中括號和$來驅動expression
             <div>
                 <div class="name font_size"><span>${posts[i].name}</span></div>
                 <span class="location font_size">${posts[i].location}</span>
