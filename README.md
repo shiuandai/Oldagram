@@ -36,7 +36,7 @@ I start the Scrimba Module 4 course- Web dev basics and learn how to use HTML, C
 
 Designing a hometown homepage website requires following some rules and taking into consideration that the project is not only a graphic project but a web project too. The next sections are crucial for any web project.
 
-### 1.1 - Structure design
+### 1.1 - Create the 
 
 * [ ] **HTML** is "HyperText Markup Language" It defines the meaning and structure of web content. The Web Designer should keep the structure simple and the similar content should be grouped together to make sure it can be read clearly.
 	> ℹ️ [HTML] GET to know more about the definition. → [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
