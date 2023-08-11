@@ -7,14 +7,9 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![Join the chat at https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist](https://badges.gitter.im/Front-End-Checklist/Front-End-Design-Checklist.svg)](https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist) [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Table of Contents
-* **[1. Design requirements](#1---design-requirements)**
-	* [1.1 Structure Design](#11---grid-system)
-	* [1.2 Colors](#12---colors)
-	* [1.3 Fonts and texts](#13---fonts-and-texts)
-	* [1.4 Publish files](#14---publish-files)
-* **[2. Pre-work phases](#2---pre-work-phases)**
-	* [2.1 Refine the project using CSS](#21---refine-the-project-using-CSS)
-* **[3. Before production](#3---before-production)**
+* **[1. What I learned](#1---What-I-learned)**
+	* [1.1 Create the multi "Template string" using "For loop"](#11---Create-the-multi-"Template-string"-using-"For-loop")
+
 
 ---
 
@@ -32,7 +27,7 @@ I start the Scrimba Module 4 course- Web dev basics and learn how to use HTML, C
 
 ---
 
-## 1. - What I learned?
+## 1. - What I learned
 
 Designing a social media website requires following some rules and taking into consideration that the project is not only a graphic project but a web project too which allows users to interact with the graphics.
 
@@ -60,57 +55,10 @@ for (let i=0; i<posts.length; i++){
 mainEl.innerHTML=html
 ```
 
-⚠️ *Use the "container" to define which tags should be contained inside, they perform "active" when using the **flex-box**, it is a crucial method to foster the web structure building.* 
+⚠️ *Along with having normal strings, template literals can also contain other parts called placeholders, which are embedded expressions delimited by a dollar sign and curly braces: **${expression}**.*
 
 **[⬆ back to top](#table-of-contents)**
 
-### 1.2 - Colors
-
-You can "SAVE" your color preference in your account. → [Color Palette](https://scrimba.com/links/hometown-palette)
-
-* [ ] **All colors used in the creatives are named** (RED: #E63946, LIGHT: #F1FAEE, AQUA: #A8DADC, LIGHT BLUE: #457B9D, DARK BLUE: #1D3557) which are provided by Scrimba course so that they become the basic color guideline to use in my project.
-
-* [ ] All of the most important/used **colors contrast** in the design to allow text with the background can be easily read.
-
-**[⬆ back to top](#table-of-contents)**
-
-### 1.3 - Fonts and texts
-
-Fonts are an essential part of every design.
-
-It is recommended to organize the font size and style in the design process. There are several websites where the designer can download the font. ([Google font](https://fonts.google.com/)).
-
-* [ ] Using the technique **@font-face** in CSS, the link is embedded in the CSS. 
-
-  __Resources:__
-	* 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
-
-* [ ] The **Web Safe Fonts** is an important concept. Web-safe fonts are fonts that are pre-installed by many operating systems. While not all systems have the same fonts installed, you can use a web-safe font stack to choose several fonts that look similar and are installed on the various systems that you want to support.
-
-**[⬆ back to top](#table-of-contents)**
-
-
-### 1.4 - Publish files
-
-* [ ] How to host your website, there are several ways. 1. **Netlify** provides next-generation web hosting and automation that's very affordable. Is can be integrated with Github for publishing the web easily. The alternative is using Github Page, my way is to use Github Page. → [Comparison of Github Page and Netlify](https://www.freecodecamp.org/news/publish-your-website-netlify-github/) 
-
-## 2. - Pre-work phases
-
-### 2.1 - Refine the project using CSS
-
-It is recommended to master the **flex-box** concept, it usually combines with different **Property** like **flex-direction: column; align-items: center;** .
-
-Define what condition to use the flex-box, it influences how the content displayed.
-
-⚠️ *When using the flex-box, it is good to use the property of "gap" rather than "margin" to generate the gap.*
-
-## 3. - Before production
-
-Before launching your website, be sure to review all your code and make sure the text layout and comment it's easy to read for another programmer.
-
-**[⬆ back to top](#table-of-contents)**
-
----
 
 ## Author
 
