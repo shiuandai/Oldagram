@@ -34,15 +34,12 @@ I start the Scrimba Module 4 course- Web dev basics and learn how to use HTML, C
 
 ## 1. - What I learned?
 
-Designing a hometown homepage website requires following some rules and taking into consideration that the project is not only a graphic project but a web project too. The next sections are crucial for any web project.
+Designing a social media website requires following some rules and taking into consideration that the project is not only a graphic project but a web project too which allows users to interact with the graphics.
 
-### 1.1 - Create the 
+### 1.1 - Create the multi "Template string" using "For loop"
 
-* [ ] **HTML** is "HyperText Markup Language" It defines the meaning and structure of web content. The Web Designer should keep the structure simple and the similar content should be grouped together to make sure it can be read clearly.
-	> ℹ️ [HTML] GET to know more about the definition. → [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
-
-* [ ] **Be familiar with the HTML Tag**. 
-* [ ] Before working on each website project, I can **build every template** with my own structure concept. Building the structure before everything else will facilitate my work afterward.
+* [ ] **Template strings** are literals delimited with backtick (`) characters, allowing for **multi-line strings**, **string interpolation** with embedded expressions, and special constructs called **tagged templates**.
+	> ℹ️ [JS] GET to know more about "Template literals". → [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 ```html
 <div class="container">
