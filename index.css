@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    margin: 5px auto;
+}
+
+#header_image_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    max-width: 30%;
+}
+
+#user_avatar, .avatar{
+    max-width: 15%;
+    border-radius: 50%;
+}
+
+#post_author{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.font_size{
+    font-size: 80%;
+}
+
+.name{
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+
+.post_img{
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+#icon_image{
+    display: flex;
+    gap: 10px;
+}
+
+.icon{
+    max-width: 7%;
+}
+
+.icon:hover{
+    opacity: 0.5;
+}
+
+#likes{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 80%;
+    margin: 10px auto;
+}
+
+#username{
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+#comment_text{
+    font-size: 80%;
+    margin-bottom: 30px;
+}
+
+#username{
+    font-family: 'Source Sans 3', sans-serif;
+}
