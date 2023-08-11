@@ -15,7 +15,7 @@
 
 > The **Oldagram** is my sixth static website, I tried to duplicate the website layout from Instagram and learned to write reusable code in new techniques.
 
-I start the Scrimba Module 4 course- Web dev basics and learn how to use HTML, CSS, and JavaScript knowledge. At the end of the course, I follow the Figma template to finish the social media website layout and take a look at the → [Oldagram](https://shiuandai.github.io/Oldagram/).
+I start the Scrimba Module 4 course- Essential CSS Concepts and learn how to use HTML, CSS, and JavaScript knowledge. At the end of the course, I follow the Figma template to finish the social media website layout and take a look at → [Oldagram](https://shiuandai.github.io/Oldagram/).
 
 ## How did I start the project?
 
@@ -54,7 +54,7 @@ for (let i=0; i<posts.length; i++){
 }
 mainEl.innerHTML=html
 ```
-
+The code above is useful to create the multi posts and reduce the code complexity.
 ⚠️ *Along with having normal strings, template literals can also contain other parts called placeholders, which are embedded expressions delimited by a dollar sign and curly braces: **${expression}**.*
 
 **[⬆ back to top](#table-of-contents)**
